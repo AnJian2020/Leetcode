@@ -23,5 +23,7 @@ class Solution:
                 item+=1
             n-=1
         return people
+
+
 if __name__=="__main__":
     print(Solution().departmentOptimization(10,[10,10,5,4]))
