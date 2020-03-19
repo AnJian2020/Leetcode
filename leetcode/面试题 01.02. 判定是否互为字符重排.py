@@ -3,4 +3,4 @@ class Solution:
         return sorted(s1)==sorted(s2)
 
 if __name__=="__main__":
-    print(Solution().CheckPermutation(s1 = "abc", s2 = "bca"))
+    print(Solution().CheckPermutation(s1 = "acb", s2 = "bca"))
