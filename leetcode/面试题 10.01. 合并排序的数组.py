@@ -10,7 +10,7 @@ class Solution:
         A.sort()
 
 if __name__=="__main__":
-    A = [1, 2, 3, 0, 0, 0]
-    B = [2, 5, 6]
+    A = [1, 2, 3, 0, 0, 0,0]
+    B = [2, 5, 6,4]
     Solution().merge(A,3,B,3)
     print(A)
