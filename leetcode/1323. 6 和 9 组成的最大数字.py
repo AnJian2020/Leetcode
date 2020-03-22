@@ -1,5 +1,6 @@
 class Solution:
     def maximum69Number (self, num: int) -> int:
+
         numList=list(str(num))
         for item in range(len(numList)):
             if numList[item]=="6":
@@ -11,4 +12,4 @@ class Solution:
         return int(result)
 
 if __name__=="__main__":
-    print(Solution().maximum69Number(9669))
+    print(Solution().maximum69Number(1661))
