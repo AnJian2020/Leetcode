@@ -13,5 +13,5 @@ class Solution:
         return result
 
 if __name__=="__main__":
-    nums= [7,7,7,7]
+    nums= [8,8,8]
     print(Solution().smallerNumbersThanCurrent(nums))
