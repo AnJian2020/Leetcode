@@ -3,22 +3,10 @@ from typing import List
 
 class Solution:
     def maximumProduct(self, nums: List[int]) -> int:
-        num1=[] #正
-        num2=[] #负
+        nums=sorted(nums)
         result=[]
-        for item in sorted(nums):
-            if item>=0:
-                num1.append(item)
-            else:
-                num2.append(item)
-        if len(num1)==1:
-            result.append(num1[-1]*num2[0]*num2[1])
-        elif len(num1)==0:
-            result.append(num2[-1]*num2[-2]*num2[-3])
-        elif len(num1)==2:
-            result.append(num1[-1]*num1[-2]*num2[-1])
-        elif len(num1)>2:
-            result.append(num1[-1]*num1[-2]*num1[-3])
+        result.append(nums[-1]*nums[-2]*nums[-3])
+        result.append(nums[0]*nums[1]*nums[-1])
         return max(result)
 
 
