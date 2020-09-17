@@ -20,6 +20,6 @@ class Solution:
                     first+=1
 
 if __name__=="__main__":
-    nums=[1,0,1,3]
+    nums=[1,0,1]
     Solution().moveZeroes(nums)
     print(nums)
