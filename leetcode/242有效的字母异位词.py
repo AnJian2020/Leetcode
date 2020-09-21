@@ -13,5 +13,5 @@ class Solution:
 
 if __name__=="__main__":
     s="anagram"
-    t="nagaram"
+    t="nagaramz"
     print(Solution().isAnagram(s,t))
