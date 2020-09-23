@@ -25,5 +25,5 @@ class Solution:
                 return int(result)
 
 if __name__=="__main__":
-
+    print()
     print(Solution().reverse(1534236469))
