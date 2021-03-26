@@ -1,7 +1,7 @@
 class ListNode:
     def __init__(self, x,next=None):
         self.val = x
-        self.next = None
+        self.next = next
 
 class Solution:
     def deleteDuplicates(self, head: ListNode) -> ListNode:
